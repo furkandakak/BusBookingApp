@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Bus Booking App</string>
+    <string name="title_activity_maps">My Bus Booking App</string>
+    <string name="google_map_api_key">AIzaSyCSpmEsfMUD0UIPpWbGVu7iCq8YlH7indo</string>
+
+    <!-- maps_activity.xml -->
+    <string name="button_text">List Trip</string>
+
+    <!-- bus_list_item.xml -->
+    <string name="bus_name">Bus Name</string>
+    <string name="time">Time</string>
+    <string name="book_button">Book</string>
+
+    <!-- bus_dialog.xml -->
+    <string name="trips">Trips</string>
+
+    <!-- book_error_dialog.xml -->
+    <string name="book_error_header">The trip you selected is full.</string>
+    <string name="book_error_description">Please select another one.</string>
+    <string name="book_error_button_text">Select a Trip</string>
+</resources>

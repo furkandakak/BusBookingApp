@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/book_error_header"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/book_error_description"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/header"
+        app:layout_constraintTop_toBottomOf="@+id/header" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/selectTrip"
+        android:layout_width="0dp"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="#1824A3"
+        app:cardElevation="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/header"
+        app:layout_constraintStart_toStartOf="@+id/header"
+        app:layout_constraintTop_toBottomOf="@+id/description">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/book_error_button_text"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
