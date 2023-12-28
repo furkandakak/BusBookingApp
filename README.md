@@ -3,7 +3,7 @@
 
 -This app shows near bus station on Google Map
 
--Showm my current position with marker on map
+-Show my current position with marker on map
 
 -Get station position from response, Retrofit has been used.
 
